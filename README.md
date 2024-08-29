@@ -1,1 +1,1 @@
-[Live demo of web pagee](https://devansh-sys.github.io/Basic-Portfolio/)
+[Live demo of web page](https://devansh-sys.github.io/Basic-Portfolio/)
