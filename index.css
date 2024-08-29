@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display:flex;
+    position: fixed;
+    justify-content:space-between;
+    height: 50px;
+    letter-spacing: 2px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 50;
+    font-family: "Jersey 10", sans-serif;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+header a{          
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+    padding: 10px;
+    transition: all 0.2s ease-in-out 0s  ;
+    
+}
+header a:hover{
+    display: inline-block;
+    border: solid 2px grey;
+    border-radius: 10px;
+    transform:scale(1.05);
+    
+}
+
+/* main content from here */
+
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 50vh;
+    
+    
+}
+#greet_typewriter{
+    font-size: 50px;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    border-right: 4px solid white; /* Cursor effect */
+    overflow:hidden;
+    white-space: nowrap; /* Prevent text wrapping */
+    animation: typing 4s steps(40), blink-caret 0.75s step-end infinite; /* Typing and blinking cursor animations */
+}
+/* Typing animation */
+@keyframes typing {
+    from {
+        width: 0; /* Start with no width */
+    }
+    to {
+        width: 100%; /* End with full width */
+    }
+}
+/* Blinking cursor animation */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent; /* Invisible cursor */
+    }
+    50% {
+        border-color: white; /* Visible cursor */
+    }
+}
+
+.about{
+    background-color: black;
+    display: flex;
+    height: 50vh;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 50px;
+}
+
+.about img{
+    height: 300px;
+    width: 300px;
+    border: solid 2px black;
+    border-radius: 150px;
+}
+#intro{
+    text-align: right;
+    width:40%;
+   
+    letter-spacing: 5px;
+    line-height: 40px;
+    font-size: 30px;
+    font-family: "Gruppo", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+/* skills div starts from here */
+.skills{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    color: white;
+    padding: 20px 50px;
+}
+.skills_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    flex-shrink: 1;
+    
+    
+}
+.skill_intro ul{
+    flex-shrink: 1;
+    list-style-type: none; 
+    padding: 0;
+    width: 50%;
+    font-family: "Chivo Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    line-height: 30px;
+    font-size: 30px;
+    
+}
+
+.skills h4{
+    padding: 10px 0px;
+    font-size: 50px;
+    
+    text-align: left;
+
+}
+.skills h5{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+}
+.skill_set{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.skill_set ul{
+    margin: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Note h and w of imgs have been styled inline in html file */
+ul li{ 
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    font-size: 18px;
+    flex-shrink: 1;
+}
+
+li img:hover{
+    display: inline-block;
+    transform: scale(1.3);
+}
+
+/* porject div start here */
+.projects{
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+    padding-bottom: 40px;
+}
+.projects h1{
+    font-size: 50px;
+}
+#project1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.image1 img{
+    height: 370px;
+    width: 700px;
+    flex-shrink: 1;
+    
+}
+.project_intro{
+
+    font-family: "Chivo Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    letter-spacing: 5px;
+    line-height: 50px;
+    font-size: 20px;
+    flex-shrink: 1;
+
+    
+}
+.project_intro h2{
+    font-size: 20px;
+}
+
+/* footer starts here */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+}
+.profiles{
+    width: 30%;
+    display: flex;
+    
+
+}
+.panchor{
+    padding: 0px 10px;
+}
+.profiles img{
+    height: 30px;
+    width: 30px;
+}
+
+.panchor:hover{
+    transform:scale(1.2);
+}
+
+#contact_me a{
+    text-decoration: none;
+    color: white;
+    
+}
+#contact_me{
+    display: flex;
+    flex-direction: column;
+    
+}
+

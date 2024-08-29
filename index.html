@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devansh's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Gruppo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#hero"><span>devansh</span></a>
+       
+        <nav>
+            <a href="#about_div"><span>about</span></a>
+            <a href="#skill_div"><span>Skills</span></a>
+            <a href="#projects_div"><span>Project</span></a>
+            <a href="#contact_me"><span>Contact me</span></a>
+        </nav>
+    
+    </header>
+    <main>
+        <div id="hero">
+            <div id="greet_box"><h1 id="greet_typewriter">hello i'm devansh</h1></div>
+        </div>
+        
+        <div class="about" id="about_div">
+             <div class="img_container"><img src="devansh.jpeg" alt="img"></div>
+                <div id="intro">I'm devansh bhargava,an enthusiatic student learning Web development and mastering DSA.I know the fundamentals of AI/ML too.
+                    currently doing front-end development and looking forward to build real world projects.Pursuing B-tech in  Information Technology from IET-DAVV,Indore. <br>
+                
+                
+                </div>
+        </div>
+
+        <div class="skills" id="skill_div"><!--it also has to be set flex-->
+           
+            <div class="skill_intro">
+                <h4 >Skills</h4>
+                
+                <ul>
+                    <li>I am doing DSA in java and have done quite a bit of c++.</li> <br>
+                    <li>also know the html and css fundamentals which you can see on my github profile. </li> <br>
+                    <li>I also know the linux as i use a linux based distro as my daily OS.</li> <br>
+                    <li>also the jupyter Notebook's basic have done basic project in ML on jupyter.</li>
+                </ul>
+            </div>
+           
+            <div class="skills_container"> <!--it has to be set flex-->
+                
+                <div id="language" class="skill_set">
+                    <h5>Languages</h5>
+                    <ul>
+                        <li><img src="images/java.png" alt="java" style="height: 48px; width: 48px;"> <span>Java</span></li>
+                        <li><img src="images/c++.png" alt="c++" style="height: 48px; width: 48px;"><span>C++</span></li>
+                        <li><img src="images/icons8-python-48.png" alt="python" style="height: 48px; width: 48px;"><span>python</span></li>
+                    </ul>
+                </div><!--display of all these has to set inline block in order to apply transformation-->
+                <div id="webd" class="skill_set">
+                    <h5>Web technologies</h5>
+                    <ul>
+                        <li><img src="images/html.png" alt="html" style="height: 48px; width: 48px;"><span>HTML</span></li>
+                        <li><img src="images/css.png" alt="css" style="height: 48px; width: 48px;"><span>CSS</span></li>
+                        <li><img src="images/js.png" alt="javascript" style="height: 48px; width: 48px;"><span>JavaScript</span></li>
+                    </ul>
+                </div>
+                <div id="tools" class="skill_set">
+                    <h5>Tools</h5>
+                    <ul>
+                        <li><img src="images/github.png" alt="github" style="height: 48px; width: 48px;"><span>GitHub</span></li>
+                        <li><img src="images/vscode.png" alt="visual_studio" style="height: 48px; width: 48px;"><span>Visual Studio</span></li>
+                        <li><img src="images/intellij.png" alt="intelliJ_IDEA" style="height: 48px; width: 48px;"><span>IntelliJ <br>IDE</span></li>
+                        <li><img src="images/linux.png" alt="linux" style="height: 48px; width: 48px;"><span>linux</span></li>
+                        <li><img src="images/jupyter.png" alt="jupyter_Notebook" style="height: 48px; width: 48px;"><span>jupyter <br>Notebook</span></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects" id="projects_div">
+            <h1>Projects</h1>
+            <div id="project1">
+                <div class="project_intro">
+                    Myntra Clone <br>
+                     myntra landing page using css and html. <br>
+                     build the following: <br>
+                     <ul>
+                        <li>navigation bar</li>
+                        <li>search bar</li>
+                        <li>banner image</li>
+                        <li>brand wise clothing shops</li>
+                     </ul>
+                </div>
+                <div class="image1"><img src="images/myntra.png" alt="myntra clone"></div>
+            </div>
+            
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <div class="profiles">
+            <div class="panchor"><a href="https://github.com/Devansh-sys"><img src="images/github.png" alt="github"></a></div>
+            <div class="panchor"><a href="https://leetcode.com/u/ByteBender913/"><img src="images/leetcode.png" alt="leetcode"></a></div>
+            <div class="panchor"><a href="https://www.codechef.com/users/devanshbhargav"><img src="images/codechef.png" alt="codechef"></a></div>
+        </div>
+        <div id="contact_me">
+            <a href="https://www.linkedin.com/in/devansh-bhargava/">Linkedin</a>
+            <span>gmail: devanshbhargava@90gmail.com </span>
+        </div>
+    </footer>
+</body>
+</html>
